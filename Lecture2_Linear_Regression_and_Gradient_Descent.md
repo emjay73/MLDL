@@ -13,7 +13,11 @@ Choose
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\theta" /> 
 such that h(x) 
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\large&space;\approx" title="\large \approx" /> 
-y for training example
+y for training example   
+we wanna minimize the squared difference between the prediction and y  (choose values of theta that minimize that) 
+<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\large&space;(&space;h_{\theta}(x)&space;-&space;y&space;)^2" title="\large ( h_{\theta}(x) - y )^2" />
+to make derivative simpler,   
+<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\large&space;\frac{1}{2}(&space;h_{\theta}(x)&space;-&space;y&space;)^2" title="\large \frac{1}{2}( h_{\theta}(x) - y )^2" />
 
 ### Ex1
 ```
