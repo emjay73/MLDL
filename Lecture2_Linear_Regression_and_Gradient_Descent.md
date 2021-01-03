@@ -27,11 +27,11 @@ h(x) = sum([ theta_j * x_j from j in range(0, 3) ], x_0 = 1
 ```
 
 ## notation
-<img src="https://latex.codecogs.com/svg.latex?\Normal&space;\theta" title="\theta" /> = parameters   
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\theta" title="\theta" /> = parameters   
 m = # training examples (# rows in table)   
 x = "inputs" or "features"   
 y = "output" or "target variable"   
 (x, y) = training example    
-<img src="https://latex.codecogs.com/svg.latex?\Normal&space;(x^{(i)},y^{(i)})" title="(x^{(i)}, y^{(i)})" /> = ith training example   
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;(x^{(i)},y^{(i)})" title="(x^{(i)}, y^{(i)})" /> = ith training example   
 
 
