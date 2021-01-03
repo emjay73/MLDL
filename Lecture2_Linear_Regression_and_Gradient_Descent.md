@@ -6,8 +6,8 @@
 
 ## Linear Regression
 
-job of supervised learning
-<img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+job of supervised learning    
+<img src="supervised_learning_process.png" width="450px" height="300px"></img>
 
 ### Ex1
 ```
