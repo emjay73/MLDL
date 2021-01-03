@@ -8,6 +8,11 @@
 
 job of supervised learning    
 <img src="supervised_learning_process.png" width="450px" height="300px"></img>
+Choose 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\theta"/> 
+such that h(x) 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\approx"/>
+y for training example
 
 ### Ex1
 ```
