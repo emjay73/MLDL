@@ -37,7 +37,7 @@ x = "inputs" or "features"
 y = "output" or "target variable"   
 (x, y) = training example    
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;(x^{(i)},y^{(i)})" title="(x^{(i)}, y^{(i)})" /> = ith training example  
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;h_{\theta}(x)" title="h_{\theta}(x)" /> = h(x)  
+<img src="https://latex.codecogs.com/gif.latex?\dpi{80}&space;\large&space;h_{\theta}(x)" title="\large h_{\theta}(x)" /> = h(x)  
 
 
 
