@@ -46,7 +46,9 @@ Changing
 to reduce 
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;J(\theta)" title="J(\theta)" />   
 
-
+<img src="Gradient_Descent2.png" width="450px" height="300px"></img>   
+   
+> It turns outu that when you run gradient descents on linear regression, there will not be local optimum
 
 ### Ex1
 ```
