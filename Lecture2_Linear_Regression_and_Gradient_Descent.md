@@ -41,7 +41,7 @@ Start with some
 (Say 
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta=\vec{0}" title="\theta=\vec{0}" />
 )   
-Changing 
+Keep changing 
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta" title="\theta" />
 to reduce 
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;J(\theta)" title="J(\theta)" />   
@@ -49,6 +49,17 @@ to reduce
 <img src="Images/Gradient_Descent2.png" width="450px" height="300px"></img>   
    
 > It turns outu that when you run gradient descents on linear regression, there will not be local optimum
+
+### Implementation
+The dataset(training set) is fixed
+The cost function J is fixed
+The only thing you're gonna do is tweak or modify the parameters 
+<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta" title="\theta" />   
+
+> := means we're gonna take the value on the right and assign it to 
+<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta" title="\theta" /> 
+on the left.
+
 
 ### Ex1
 ```
