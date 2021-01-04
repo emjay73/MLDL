@@ -40,7 +40,10 @@ Start with some
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta" title="\theta" /> 
 (Say 
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta=\vec{0}" title="\theta=\vec{0}" />
-)
+)   
+Changing 
+<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta" title="\theta" />
+to reduce <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;J(\theta)" title="J(\theta)" />   
 
 
 
