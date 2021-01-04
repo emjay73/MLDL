@@ -15,7 +15,7 @@ y = "output" or "target variable"
 ## Linear Regression
 
 job of supervised learning    
-<img src="supervised_learning_process.png" width="450px" height="300px"></img>   
+<img src="Images/supervised_learning_process.png" width="450px" height="300px"></img>   
 when designing a learning algorithm the first thing you need to ask is how do you represent the hypothesis H?   
 Choose 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\theta" /> 
@@ -46,7 +46,7 @@ Changing
 to reduce 
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;J(\theta)" title="J(\theta)" />   
 
-<img src="Gradient_Descent2.png" width="450px" height="300px"></img>   
+<img src="Images/Gradient_Descent2.png" width="450px" height="300px"></img>   
    
 > It turns outu that when you run gradient descents on linear regression, there will not be local optimum
 
