@@ -57,8 +57,8 @@ The only thing you're gonna do is tweak or modify the parameters
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta" title="\theta" />   
 
 > := means we're gonna take the value on the right and assign it to 
-<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta" title="\theta" /> 
-on the left.
+> <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta" title="\theta" /> 
+> on the left.
 
 
 ### Ex1
