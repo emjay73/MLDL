@@ -27,7 +27,13 @@ y for training example
 we wanna minimize the squared difference between the prediction and y  (choose values of theta that minimize that) 
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;J(\theta)&space;=&space;\sum_{i}^{m}(h_{\theta}(x^{(i)})-y^{(i)}))^2" title="J(\theta) = \sum_{i}^{m}(h_{\theta}(x^{(i)})-y^{(i)}))^2" />  
 to make derivative simpler,   
-<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;J(\theta)&space;=&space;\frac{1}{2}\sum_{i}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^2" title="J(\theta) = \frac{1}{2}\sum_{i}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^2" />
+<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;J(\theta)&space;=&space;\frac{1}{2}\sum_{i}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^2" title="J(\theta) = \frac{1}{2}\sum_{i}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^2" />    
+
+why square error?   
+It is because of the generalization of linear regression
+Linear regressino is a special case of a bigger family of algorithms called generalizing your models
+Using squared error corresponds to gaussian
+
 
 ### Ex1
 ```
