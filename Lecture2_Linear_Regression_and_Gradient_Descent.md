@@ -4,7 +4,6 @@
 - Batch/stochastic gradient descent
 - Normal equation
 
-
 ## notation
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\large&space;\theta" title="\large \theta" /> = parameters   
 m = # training examples (# rows in table)   
@@ -29,10 +28,20 @@ we wanna minimize the squared difference between the prediction and y  (choose v
 to make derivative simpler,   
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;J(\theta)&space;=&space;\frac{1}{2}\sum_{i}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^2" title="J(\theta) = \frac{1}{2}\sum_{i}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^2" />    
 
-why square error?   
+> why square error?   
 It is because of the generalization of linear regression
-Linear regressino is a special case of a bigger family of algorithms called generalizing your models
+Linear regressino is a special case of a bigger family of algorithms called generalizing your models.   
 Using squared error corresponds to gaussian
+
+## Gradient Descent
+Algorithm to find the value of Theta that minimizes Cost Function J of Theta.   
+   
+Start with some 
+<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta" title="\theta" /> 
+(Say 
+<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta=\vec{0}" title="\theta=\vec{0}" />
+)
+
 
 
 ### Ex1
