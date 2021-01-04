@@ -57,6 +57,7 @@ The only thing you're gonna do is tweak or modify the parameters
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta" title="\theta" />   
 
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\theta_{j}&space;:=&space;\theta_{j}&space;-&space;\alpha{\frac{\partial&space;}{\partial&space;\theta_{j}}}J(\theta)" title="\theta_{j} := \theta_{j} - \alpha{\frac{\partial }{\partial \theta_{j}}}J(\theta)" />   
+> <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\alpha" title="\alpha" /> is learning rate   
 > a:=b means we're gonna take the value on the right and assign it to a on the left.
 > a=b means I'm asserting the fact that the value of a is equal to the value of b
 
