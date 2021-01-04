@@ -4,6 +4,15 @@
 - Batch/stochastic gradient descent
 - Normal equation
 
+
+## notation
+<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\large&space;\theta" title="\large \theta" /> = parameters   
+m = # training examples (# rows in table)   
+x = "inputs" or "features"   
+y = "output" or "target variable"   
+(x, y) = training example    
+<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\large&space;(x^{(i)},&space;y^{(i)})" title="\large (x^{(i)}, y^{(i)})" /> = i th training example  
+<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\large&space;h_{\theta}(x)" title="\large h_{\theta}(x)" /> = h(x)  
 ## Linear Regression
 
 job of supervised learning    
@@ -13,11 +22,12 @@ Choose
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\theta" /> 
 such that h(x) 
 <img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\large&space;\approx" title="\large \approx" /> 
-y for training example   
+y for training example      
+   
 we wanna minimize the squared difference between the prediction and y  (choose values of theta that minimize that) 
-<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\large&space;(&space;h_{\theta}(x)&space;-&space;y&space;)^2" title="\large ( h_{\theta}(x) - y )^2" />
+<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;J(\theta)&space;=&space;\sum_{i}^{m}(h_{\theta}(x^{(i)})-y^{(i)}))^2" title="J(\theta) = \sum_{i}^{m}(h_{\theta}(x^{(i)})-y^{(i)}))^2" />  
 to make derivative simpler,   
-<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\large&space;\frac{1}{2}(&space;h_{\theta}(x)&space;-&space;y&space;)^2" title="\large \frac{1}{2}( h_{\theta}(x) - y )^2" />
+<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;J(\theta)&space;=&space;\frac{1}{2}\sum_{i}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^2" title="J(\theta) = \frac{1}{2}\sum_{i}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^2" />
 
 ### Ex1
 ```
@@ -34,14 +44,6 @@ if you have more than one data, h(x) = theta_0 + theta_1 * x1 + theta_2 * x2 ( x
 h(x) = sum([ theta_j * x_j from j in range(0, 3) ], x_0 = 1
 ```
 
-## notation
-<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\large&space;\theta" title="\large \theta" /> = parameters   
-m = # training examples (# rows in table)   
-x = "inputs" or "features"   
-y = "output" or "target variable"   
-(x, y) = training example    
-<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\large&space;(x^{(i)},&space;y^{(i)})" title="\large (x^{(i)}, y^{(i)})" /> = ith training example  
-<img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\large&space;h_{\theta}(x)" title="\large h_{\theta}(x)" /> = h(x)  
 
 
 
