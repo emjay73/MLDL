@@ -88,3 +88,8 @@ the learning update rule is the same.
    
 ### 3 Parameterization   
 <img src="Images/GLM_params.png"></img>   
+   
+## Softmax Regression 
+Yet another member of GLM family.
+Usually, hypothesis equals probability or scalar, while softmax outputs prob. distribution.   
+<img src="http://latex.codecogs.com/gif.latex?\dpi{110}&space;\frac{e^{\theta_{i}^{T}x}}{\sum_{i\in&space;{class1,&space;class2,&space;...}}^{}e^{\theta_{i}^{T}x}}" title="http://latex.codecogs.com/gif.latex?\dpi{110} \frac{e^{\theta_{i}^{T}x}}{\sum_{i\in {class1, class2, ...}}^{}e^{\theta_{i}^{T}x}}" />
