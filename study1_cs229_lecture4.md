@@ -72,3 +72,19 @@ a) <img src="http://latex.codecogs.com/gif.latex?\dpi{110}&space;y|x,&space;\the
 Depending on the problem that you have, you can choose any member of E.F as parameterized by <img src="http://latex.codecogs.com/gif.latex?\dpi{110}&space;\eta" title="http://latex.codecogs.com/gif.latex?\dpi{110} \eta" />   
 b) <img src="http://latex.codecogs.com/gif.latex?\dpi{110}&space;\eta&space;=&space;\theta^{T}x" title="http://latex.codecogs.com/gif.latex?\dpi{110} \eta = \theta^{T}x" />   
 c) Test Time Output = <img src="http://latex.codecogs.com/gif.latex?\dpi{110}&space;E[y|x;\theta]" title="http://latex.codecogs.com/gif.latex?\dpi{110} E[y|x;\theta]" />   
+   
+<img src="Images/GLM.png"></img>    
+
+### GLM Training   
+No matter what kind of GLM you are doing, no matter which choice of distribution that you make,    
+the learning update rule is the same.
+   
+**Learning Update Rule**   
+<img src="http://latex.codecogs.com/gif.latex?\dpi{110}&space;\theta_{j}:=\theta_{j}&plus;\alpha(y^{(i)}-h_{\theta}(x^{(i)}))x_{j}^{(i)}" title="http://latex.codecogs.com/gif.latex?\dpi{110} \theta_{j}:=\theta_{j}+\alpha(y^{(i)}-h_{\theta}(x^{(i)}))x_{j}^{(i)}" />   
+
+### Terminology   
+<img src="http://latex.codecogs.com/gif.latex?\dpi{110}&space;\mu=E[y;\eta]=g(\eta)=\frac{\partial}{\partial&space;\eta}a(\eta)" title="http://latex.codecogs.com/gif.latex?\dpi{110} \mu=E[y;\eta]=g(\eta)=\frac{\partial}{\partial \eta}a(\eta)" /> = canonical response function   
+<img src="http://latex.codecogs.com/gif.latex?\dpi{110}&space;\eta=g^{-1}(\mu)" title="http://latex.codecogs.com/gif.latex?\dpi{110} \eta=g^{-1}(\mu)" /> = canonical link function   
+   
+### 3 Parameterization   
+<img src="Images/GLM_params.png"></img>   
